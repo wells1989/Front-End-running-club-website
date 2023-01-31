@@ -1,0 +1,126 @@
+html body {
+    font-size: 18px;
+    font-family: "Arial", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E9967A;
+    word-spacing: 3px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: yellow;
+    font-weight: 900;
+    margin-left: 20px;
+  }
+  
+  header, footer {
+    width: 100%;
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: #008B8B;
+  }
+  
+  .banner {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .banner li {
+    margin: 10px;
+    color: #E9967A;
+    font-size: 1.5 rem;
+    font-weight: 900;
+  }
+  
+  .banner li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  /* body */
+  
+  .title {
+    width: 100%;
+    background-color: #b03636;
+    text-align: center;
+    color: #E9967A;
+    line-height: 2rem;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .info {
+    font-size: 1.25rem;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  /* Images */
+  
+  .running-images {
+    position: relative;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .running-images li {
+    display: inline;
+    margin: 10px;
+    width: 18%;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .running-images li {
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  /* Quote section */
+  
+  .quote-section {
+    width: 100%;
+    background-color: #008B8B;
+    color: white;
+    line-height: 2rem;
+    padding: 20px;
+  }
+  
+  .quote-section h3 {
+    width: 80%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: yellow;
+  }
+  
+  .quote-section p {
+    color: yellow;
+  }
+  
+  .come-join {
+    position: relative;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+  }
+  
+  .come-join img {
+    justify-content: center;
+      width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+  }
